@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<style>
+    body {
+        background-color: aquamarine;
+        padding: 0px;
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    table {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        border-collapse: collapse;
+        width: 800px;
+        height: 200px;
+        border: 1px solid blue;
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    tr {
+        transition: all .2s ease-in;
+       
+    }
+    
+    th,
+    td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #dddddddddddd;
+    }
+    
+    #header {
+        background-color: #16a085;
+        color: #fff;
+    }
+    
+    h1 {
+        font-weight: 600;
+        text-align: center;
+        background-color: #16a085;
+        color: #fff;
+        padding: 10px 0px;
+    }
+    
+    tr:hover {
+        background-color: #f5f5f5;
+        
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    
+</style>
+
+<body>
+
+    <h1>Hoverable Table</h1>
+    <hr>
+
+    <table>
+        <tr id="header">
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+            <th>Country</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Akash </td>
+            <td>Kumar</td>
+            <td>20 </td>
+            <td>India </td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>Rahul </td>
+            <td>Mahato </td>
+            <td>23 </td>
+            <td>India </td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>Sandip </td>
+            <td>Yadav</td>
+            <td>21</td>
+            <td>Dimna </td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>Sushil </td>
+            <td>Sandil</td>
+            <td>21 </td>
+            <td>Bhagalpur</td> </td>
+            <td>Male </td>
+
+        </tr>
+        <tr>
+            <td>Aman </td>
+            <td>Keshri </td>
+            <td>20 </td>
+            <td>Karangajhar </td>
+            <td>Male </td>
+
+        </tr>
+       
+
+    </table>
+
+</body>
+
+</html
